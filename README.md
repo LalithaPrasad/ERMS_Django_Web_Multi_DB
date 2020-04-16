@@ -14,6 +14,7 @@ app, initialise and migrate the databases with the following commands:
     ./manage.py migrate --database=default
     ./manage.py migrate --database=admindata
     ./manage.py migrate --database=empdata
+    ./manage.py migrate
 
 'admindata' and 'empdata' are the names used in 'settings.py'
 
